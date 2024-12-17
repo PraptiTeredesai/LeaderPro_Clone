@@ -1,0 +1,95 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container for the tables */
+  .competition-tables {
+    display: flex;
+    justify-content: space-between; /* Space between each table */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 20px; /* Adds space between the tables */
+    padding: 20px;
+  }
+  
+  /* Styling for each individual table */
+  .competition-table {
+    width: 30%; /* Controls the width of each table */
+    border-collapse: collapse;
+    background-color: #fff; /* Table background */
+    border-radius: 10px; /* Rounded corners for tables */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for tables */
+  }
+  
+  /* Styling for table cells and headers */
+  .competition-table td,
+  .competition-table th {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  /* Table caption style */
+  .competition-table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  /* Styling for the "Finished" status */
+  .finished {
+    color: green; /* Style for finished span */
+    font-weight: bold;
+  }
+  
+  /* Styling for buttons in table cells */
+  td button {
+    margin-right: 10px; /* Adds space between buttons */
+  }
+  
+  /* General button styling */
+  button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for registration status text */
+  .registration-status {
+    margin-top: 15px;
+    background-color: #f8f8f8;
+    color: #333;
+    cursor: default;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Hover effect for registration status text */
+  .registration-status:hover {
+    background-color: #e8e8e8;
+  }
+  
