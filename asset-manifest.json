@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/LeaderPro_Clone/static/css/main.c09b1cc0.css",
+    "main.js": "/LeaderPro_Clone/static/js/main.5eba0d6f.js",
+    "static/media/bg.jpg": "/LeaderPro_Clone/static/media/bg.daa05b9cfbfc33f79fa6.jpg",
+    "index.html": "/LeaderPro_Clone/index.html",
+    "main.c09b1cc0.css.map": "/LeaderPro_Clone/static/css/main.c09b1cc0.css.map",
+    "main.5eba0d6f.js.map": "/LeaderPro_Clone/static/js/main.5eba0d6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c09b1cc0.css",
+    "static/js/main.5eba0d6f.js"
+  ]
+}
